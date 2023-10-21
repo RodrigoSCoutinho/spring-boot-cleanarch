@@ -1,7 +1,9 @@
 package br.com.rodrigoscoutinho.springbootcleanarch.infrastructure.persistence;
 
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Table(name = "USER")
 public class UserEntity {
     @Id
     private Long id;
